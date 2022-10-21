@@ -30,7 +30,7 @@ global.mess = {
     succes: 'Good Luck Sis ?',
     admin: 'Group Admin Special Features!!!',
     botAdmin: 'Bots Must Be Admins First!!!',
-    owner: 'Lu Siapa Kocak?',
+    owner: 'Join member dulu deck',
     group: 'Features Used Only For Groups!!!',
     private: 'Features Used Only For Private Chat!!!',
     bot: 'Bot Number User Special Features!!!',
@@ -250,6 +250,9 @@ jiren = `
 亗├ • ${prefix}restart ( untuk restart )
 亗├──────────────────┈
 亗├ 「pricelist bot lain」
+亗├ -SEWA BOT 35K 
+亗├ -WA JADI BOT 80K
+亗├ -MEMBER 15K
 亗├ BISA KUNJUNGI WA Wa.me/6283116373508
 亗├──────────────────┈
 `
