@@ -220,7 +220,7 @@ messageId: ""
 
 switch (command) {
 
-case 'vipmenu':
+case 'menu':
 let uptime = await runtime(process.uptime())
 jiren = ` 
 亗╭┬─────────────────┈ 
@@ -258,7 +258,25 @@ jiren = `
 `
 diablobotwhatsapp.reply(jiren)
 break
-
+case 'addprem1':
+    if (!itsMediablo) return diablobotwhatsapp.reply(mess.owner)
+if (!args[0]) return diablobotwhatsapp.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281220670449`)
+bnnd = q.split("|")[0].replace(/[^0-9]/g, '')
+let ceknye = await diablo.onWhatsApp(bnnd + `@s.whatsapp.net`)
+if (ceknye.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
+owner.push(bnnd)
+fs.writeFileSync('./database/owner.json', JSON.stringify(owner))
+diablobotwhatsapp.reply(`Nomor ${bnnd} Telah Menjadi Prem!!!`)
+break
+case 'delprem1':
+    if (!itsMediablo) return diablobotwhatsapp.reply(mess.owner)
+if (!args[0]) return diablobotwhatsapp.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281220670449`)
+ya = q.split("|")[0].replace(/[^0-9]/g, '')
+unp = owner.indexOf(ya)
+owner.splice(unp, 1)
+fs.writeFileSync('./database/owner.json', JSON.stringify(owner))
+diablobotwhatsapp.reply(`Nomor ${ya} Telah Di Hapus Prem!!`)
+break
 case 'santetgc':
     if (!itsMediablo) return diablobotwhatsapp.reply(mess.owner)
 if (!q) return diablobotwhatsapp.reply(`Contoh ${prefix+command} linkgc`)
