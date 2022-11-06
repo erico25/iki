@@ -30,7 +30,7 @@ global.mess = {
     succes: 'Good Luck Sis ?',
     admin: 'Group Admin Special Features!!!',
     botAdmin: 'Bots Must Be Admins First!!!',
-    owner: 'Lu Siapa Kocak?',
+    owner: 'bayar dulu sayang?',
     group: 'Features Used Only For Groups!!!',
     private: 'Features Used Only For Private Chat!!!',
     bot: 'Bot Number User Special Features!!!',
@@ -220,7 +220,7 @@ messageId: ""
 
 switch (command) {
 
-case 'vipmenu':
+case 'menu':
 let uptime = await runtime(process.uptime())
 jiren = ` 
 亗╭┬─────────────────┈ 
@@ -253,7 +253,7 @@ jiren = `
 亗├ -UBAH WA JADI BOT 80K
 亗├ -SEWA 35K
 亗├ -JADI MEMBER 15K
-亗├ BISA KUNJUNGI WA wa.me/62831116373508
+亗├ BISA KUNJUNGI WA wa.me/6281252273787
 亗├──────────────────┈
 `
 diablobotwhatsapp.reply(jiren)
