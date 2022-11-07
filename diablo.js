@@ -250,10 +250,10 @@ jiren = `
 亗├ • ${prefix}restart ( untuk restart )
 亗├──────────────────┈
 亗├ 「pricelist bot lain」
-亗├ -UBAH WA JADI BOT 80K
-亗├ -SEWA 35K
-亗├ -JADI MEMBER 15K
-亗├ BISA KUNJUNGI WA wa.me/6281252273787
+亗├ -UBAH WA JADI BOT 30K
+亗├ -SEWA 15K
+亗├ -JADI MEMBER 5K
+亗├ OWNER WA wa.me/6281252273787
 亗├──────────────────┈
 `
 diablobotwhatsapp.reply(jiren)
