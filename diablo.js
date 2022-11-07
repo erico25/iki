@@ -30,7 +30,7 @@ global.mess = {
     succes: 'Good Luck Sis ?',
     admin: 'Group Admin Special Features!!!',
     botAdmin: 'Bots Must Be Admins First!!!',
-    owner: 'bayar dulu sayang?',
+    owner: 'Cari apa sih sayang???',
     group: 'Features Used Only For Groups!!!',
     private: 'Features Used Only For Private Chat!!!',
     bot: 'Bot Number User Special Features!!!',
@@ -249,10 +249,10 @@ jiren = `
 亗├ • ${prefix}stats ( untuk cek status )
 亗├ • ${prefix}restart ( untuk restart )
 亗├──────────────────┈
-亗├ 「pricelist bot lain」
+亗├ {	c2eofc shop	}
 亗├ -UBAH WA JADI BOT 30K
-亗├ -SEWA 15K
-亗├ -JADI MEMBER 5K
+亗├ -SEWA BOT HANYA 15K
+亗├ -JADI MEMBER GRUP 5K
 亗├ OWNER WA wa.me/6281252273787
 亗├──────────────────┈
 `
