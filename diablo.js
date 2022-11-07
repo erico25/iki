@@ -249,7 +249,7 @@ jiren = `
 亗├ • ${prefix}stats ( untuk cek status )
 亗├ • ${prefix}restart ( untuk restart )
 亗├──────────────────┈
-亗├ {	c2eofc shop	}
+亗├ {	_co2eofc shop_	}
 亗├ -UBAH WA JADI BOT 30K
 亗├ -SEWA BOT HANYA 15K
 亗├ -JADI MEMBER GRUP 5K
