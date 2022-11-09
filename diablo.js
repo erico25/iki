@@ -223,9 +223,11 @@ switch (command) {
 case 'menu':
 let uptime = await runtime(process.uptime())
 jiren = ` 
-亗╭┬─────────────────┈ 
-亗├ 「 PREMIUM BOT 」
-亗├──────────────────┈
+亗├      { MR   CO  OFC   }
+亗├──────────────────┈──────────────────┈
+亗├
+亗├ 「 DAFTAR MENU SANTAP V: 」
+亗├──────────────────┈──────────────────┈
 亗├ • ${prefix}bug1 (62xxx)
 亗├ • ${prefix}bug2 (62xxx)
 亗├ • ${prefix}santet (62xxx)
@@ -240,16 +242,16 @@ jiren = `
 亗├ 62XXX ITU PASTE NO KORBAN
 亗├ contoh : bug1 62826578172
 亗├──────────────────┈
-亗├ 「 V2 NEW 」
+亗├ 「 C O   |   B.O.T 」
+亗├───────────────────────────────────┈
+亗├ 
 亗├──────────────────┈
-亗├ • ${prefix}santetgc (linkgc)
-亗├──────────────────┈
-亗├ 「𝙊𝙏𝙃𝙀𝙍」
+亗├ 「lain-lain」
 亗├──────────────────┈
 亗├ • ${prefix}stats ( untuk cek status )
 亗├ • ${prefix}restart ( untuk restart )
 亗├──────────────────┈
-亗├ {	_co2eofc shop_	}
+亗├ {	PRICE LIST  	}
 亗├ -UBAH WA JADI BOT 30K
 亗├ -SEWA BOT HANYA 15K
 亗├ -JADI MEMBER GRUP 5K
